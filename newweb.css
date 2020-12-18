@@ -149,6 +149,9 @@ p {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
+	img {
+		width: 80vw;
+	}
   .modal-content {
     width: 100%;
   }
