@@ -1,0 +1,155 @@
+body,
+body * {
+  background:      unset;
+  outline:    0.0rem solid hsla(1000, 0%, 0%, 1);
+  margin:          unset;
+  box-sizing:      unset;
+  padding:         unset;
+  color:           unset;
+  text-decoration: unset;
+  display: block;
+  flex-wrap: wrap;
+
+}
+
+/*div {
+  display: block;
+}*/
+
+/*----name & index----*/
+
+header {
+  	padding: none;
+    font-family: 'Roboto';
+    font-style: italic;
+    display: flex;
+    position:relative;
+	margin-top: 4vh;
+	margin-left: 3vw;
+	padding: none;
+    
+}
+
+ul {
+  list-style: none;
+  margin: 5px;
+  margin-top: 2px;
+  /*padding: 5px;*/
+}
+
+li {
+  padding: 2%;
+}
+
+li a {
+  display: flex;
+  /*padding: 30%;*/
+}
+
+li a:hover {
+  color: #262626;
+  cursor: pointer;
+  }
+
+#logo {
+	font-size: 22px;
+    line-height: 1.6em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+    text-shadow: -2px 2px 2px #828282;
+    
+}
+
+#categories {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1em;
+	color: #FF3939;
+	margin: none;
+}
+
+
+
+/*----image & text boxes----*/
+
+main {
+	display: flex;
+	margin-left: 10vw;
+	margin-bottom: 5vh;
+	/*align-items: flex-start;*/
+}
+
+div {
+	align-self: center;
+	display: flex;
+	align-items: flex-start;
+	}
+
+
+.gallery {
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+
+}
+
+.imgtxt {
+	margin-right: 3vw;
+	margin-top: 4vh;
+}
+.imgtxt:hover {
+	opacity: 0.7;}
+
+
+.imgicons {
+  max-width:200px;
+  height: auto;
+}
+
+/*----individ prject page layout----*/
+
+.projectpage {
+	justify-content: center;
+
+
+}
+
+img {
+	max-width: 500px;
+}
+
+#lrgimg {
+
+max-width: 1000px;
+}
+
+/*----text formatting-----*/
+
+p {
+	font-size: 12px;
+	font-family: 'Roboto';
+	font-style: italic;
+	width: 100px;
+	margin-top: 2vh;
+	padding: 10px;
+	color: #FF3939;
+	/*text-align: justify;*/
+}
+
+#aboutpage {
+	display: block;
+}
+.abouttext {
+	width: 400px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
